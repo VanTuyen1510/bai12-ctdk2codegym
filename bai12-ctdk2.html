@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tính lãi kép ngân hàng</title>
+</head>
+<body>
+
+
+<script>
+
+    let Amount = +prompt('Enter  Amount');
+    let Time = +prompt('Enter the months time ');
+    let Rate = +prompt('Enter the rate per month');
+    let a = Amount*Rate/100;
+    let b = Time*Amount*Rate/100;
+    document.write('Tiền lãi hàng tháng là: '+ a +'</br>');
+    document.write('Tiền lãi cả kì là: '+b);
+
+
+</script>
+</body>
+</html>
